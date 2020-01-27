@@ -70,3 +70,7 @@ Hello, world!
 It will error now if you run with just `cargo run`.
 
 I should probably figure out sometime how to set a "main main".
+  Answer: in single project, can put default-run to itself.
+  this is not a good answer.
+
+Likewise, `cargo run --bin guessing_game` works. Now, runs with `cargo run`.
